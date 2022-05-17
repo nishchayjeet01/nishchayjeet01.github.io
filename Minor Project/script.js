@@ -6,7 +6,7 @@ const airQualityStat = document.querySelector(".air-quality-status")
 const srchBtn = document.querySelector(".search-btn")
 const componentsEle = document.querySelectorAll(".component-val")
 
-const appId = "9d9dfa03c3b5b76935fc32476eb2fb78"
+const appId = "2e0bebeff84ffa9357419b7459ed1fb9"
 const link = "https://api.openweathermap.org/data/2.5/air_pollution"	// API end point
 
 const getUserLocation = () => {
@@ -69,7 +69,6 @@ const setValuesOfAir = airData => {
 		case 5:
 			airStat = "Very Poor"
 			color = "rgb(204, 13, 13)"
-			document.getElementById("data").innerText+="\n Start recycling";
 			break
 		default:
 			airStat = "Unknown"
