@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="./carbon_js.js"></script>
+
+	<title>Carbon</title>
+	<link rel="stylesheet" href="./carbon.css" />
+</head>
+<body>
+	<div class="root">
+		<h1 class="heading">CARBON FOOTPRINT</h1>
+		<form>
+			<label for="fname">Electric consumption in units(monthly):</label><br>
+	        <input class="cbox-input"type="number" id="electric" name="electric" value="0"><br>
+	        <label for="fname">LPG consumption in cylinders(monthly):</label><br>
+	        <input class="cbox-input"type="number" id="lpg" name="lpg" value="0"><br>
+	        <label for="lname">Vehicle mileage</label><br>
+	        <input class="cbox-input"type="number" id="vehicle" name="vehicle" value="0"><br>
+	        <label for="lname">Number of vehicles</label><br>
+	        <input class="cbox-input"type="number" id="numvehicle" name="numvehicle" value="0"><br>
+	        <label for="lname">Do you recycle newspaper? (yes/no)</label><br>
+	        <input class="cbox-input"type="text" id="newspaper" name="newspaper" value=""><br>
+	        <label for="lname">Do you recycle Aluminium and other metallic items? (yes/no)</label><br>
+	        <input class="cbox-input"type="text" id="Aluminium" name="Aluminium" value=""><br>
+	        <button class="calculate-btn"type="button" onclick="f()">Calculate</button><br>
+	        <br>
+	        <br>
+	        <br>
+	    </form>
+
+	    <div id="data">
+	</div>
+</body>
+</html>
