@@ -69,6 +69,7 @@ const setValuesOfAir = airData => {
 		case 5:
 			airStat = "Very Poor"
 			color = "rgb(204, 13, 13)"
+			document.getElementById("data").innerText+="\n Start recycling";
 			break
 		default:
 			airStat = "Unknown"
